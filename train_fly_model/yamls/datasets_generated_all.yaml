@@ -1,0 +1,29 @@
+datasets:
+  jrc_mus-pancreas-4:
+    contrast:
+    - 0
+    - 255
+    raw: /nrs/cellmap/data/jrc_mus-pancreas-4/jrc_mus-pancreas-4.zarr/recon-1/em/fibsem-uint8
+   #Pending
+    crops:
+      crop1: /nrs/cellmap/aurrecoecheas/
+      
+  jrc_mus-pancreas-5:
+    contrast:
+    - 35000
+    - 38000
+    raw: /nrs/cellmap/data/jrc_mus-pancreas-5/jrc_mus-pancreas-5.zarr/recon-1/em/fibsem-uint16
+    #Pending
+    crops:
+      crop2: /nrs/cellmap/aurrecoecheas/
+  
+  jrc_mus-pancreas-6:
+    contrast:
+    - 0
+    - 255
+    raw: /nrs/cellmap/data/jrc_mus-pancreas-6/jrc_mus-pancreas-6.zarr/recon-1/em/fibsem-uint8
+    #Pending
+    crops:
+      crop3: /nrs/cellmap/aurrecoecheas/
+
+      # /nrs/cellmap/zubovy/crop_splits/c-elegans/8nm/combined/jrc_c-elegans-comma-1/groundtruth.zarr/crop515/
